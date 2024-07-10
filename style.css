@@ -127,10 +127,9 @@ font-size: 25px;
 
 select {
     border-radius: 8px;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 30px;
+    padding-left: -5px;
     padding-top: 1%;
     padding-bottom: 1%;
-    background-color: #FFBACE; 
-    color: white;
+    text-align: center;
 }
