@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <title>The Coolest Quizzz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- DIV Container - Para englobar as outras divs, tamanho total da página -->
+    <div id="mainContainer">
+
+        <!-- DIV Topo - Para o título e imagens -->
+        <div id="topoTitulo">
+            <img src="imagens/header.png" alt="header THE COOLEST QUIZ">
+        </div>
+
+
+        <!-- DIV Perguntas - Para os cards de perguntas -->
+        <div id="meioPerguntas">
+            <div class="perguntasDiv">
+                <h3 class="perguntasLabel">Pergunta 1</h3>
+                <p>Qual é a média de horas que os gatos dormem por dia?</p>
+            </div>
+            <div class="perguntasDiv2">
+                <h3 class="perguntasLabel">Pergunta 2</h3>
+                <p>Qual é o sentido mais aguçado dos gatos?</p>
+            </div>
+            <div class="perguntasDiv3">
+                <h3 class="perguntasLabel">Pergunta 3</h3>
+                <p>Qual é o significado do ronronar dos gatos?</p>
+            </div>
+        </div>
+
+
+        <!-- DIV Labels - Para as labels informativas de escolha -->
+        <div id="meioLabels">
+            <div>
+                          
+                <label for="pergunta1">Escolha sua resposta:</label>
+                <div class="labelsGap"></div>
+                <label for="pergunta2">Escolha sua resposta:</label>
+                <div class="labelsGap"></div>
+                <label for="pergunta3">Escolha sua resposta:</label>                         
+            </div>
+        </div>
+
+
+        <!-- DIV Selects - Para os menus de select com as respostas -->
+        <div id="meioSelects">
+            <div>
+                <select id="pergunta1">
+                    <option value="-1">Escolha sua resposta</option>
+                    <option value="0">8 horas</option>
+                    <option value="1">15 horas</option>
+                    <option value="0">18 horas</option>
+                    <option value="0">22 horas</option>
+                </select>
+            </div>
+            
+            <div>
+                <select id="pergunta2">
+                    <option value="-1">Escolha sua resposta</option>
+                    <option value="0">Visão</option>
+                    <option value="1">Olfato</option>
+                    <option value="0">Audição</option>
+                    <option value="0">Tato</option>
+                </select>
+            </div>
+            <div>
+                <select id="pergunta3">
+                    <option value="-1">Escolha sua resposta</option>
+                    <option value="1">Felicidade</option>
+                    <option value="0">Desconforto</option>
+                    <option value="0">Dor</option>
+                    <option value="0">Todas as opções</option>
+                </select>
+            </div>
+        </div>
+
+
+        <!-- DIV Resultado - Para a pontuação, resultado e botão de gerar pontos -->
+        <div id="baixoResultado">
+            <div>
+                <img src="imagens/icone-esquerda.png" alt="icone na esquerda" class="icone">
+            </div>
+            <div class="button-container">
+                <label for="inputResultado">Sua Pontuação</label>
+                <input id="inputResultado">
+                <button onclick="MostraFinalizar()">Finalizar Quiz</button>
+            </div>
+            <div>
+                <img src="imagens/icone-direita.png" alt="icone na direita" class="icone">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="lógica-quiz.js"></script>
+
+</body>
+</html>

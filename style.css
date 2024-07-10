@@ -1,0 +1,128 @@
+@font-face {
+font-family: 'League Spartan';
+src: url('./fonts/LeagueSpartan-SemiBold.ttf');
+font-weight: normal;
+font-style: normal;
+}
+    
+html {
+height: 100%;
+}
+    
+body {
+height: 100%;
+margin: 0;
+font-family: 'League Spartan', sans-serif;
+background-color: #d8d8d8dc;
+}
+    
+#mainContainer {
+height: 100%;
+width: 80%;
+margin: 0 auto;
+padding: 20px;
+}
+    
+#topoTitulo {
+text-align: center;
+height: 150px;
+margin-bottom: 20px;
+}
+
+#topoTitulo > img {
+height: 90%;
+}
+    
+#meioPerguntas {
+height: 30%;
+display: flex;
+text-align: center;
+justify-content: space-between;
+margin-left: 5%;
+margin-right: 5%;
+margin-bottom: -50px;
+}
+    
+#meioLabels {  
+height: 7%;
+display: flex;
+justify-content: center;
+text-align: center;
+
+}
+    
+#meioLabels > * {
+height: 100px;
+width: 1050px;
+display: flex;
+align-content: space-between;
+margin-left: 800px;
+margin-right: 800px;
+}
+    
+#meioSelects {
+height: 35%;
+display: flex;
+text-align: center;
+justify-content: space-between;
+margin-left: 10%;
+margin-right: 10%;
+margin-bottom: -150px;
+}
+    
+#baixoResultado {
+height: 18%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+    
+#mainContainer, h3, p, label, select, option, button {
+font-family: 'League Spartan', sans-serif;
+font-size: 25px;
+}
+
+.labelsGap {
+    width: 500px;
+}
+
+.button-container button {
+    background-color: #ebbcd2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+
+.icone {
+    width: 250px;
+}
+
+.perguntasDiv, .perguntasDiv2, .perguntasDiv3{
+    background-color: #ffffff;
+    margin-bottom: 150px;
+    width: 455px;
+    border-radius: 10px;
+}
+
+.perguntasDiv2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.perguntasLabel {  
+    background-color: #FFBACE;
+    width: 400px;
+    margin-left: 19px;
+    padding: 5px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+select {
+    border-radius: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
