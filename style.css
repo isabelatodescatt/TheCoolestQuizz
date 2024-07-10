@@ -30,10 +30,13 @@ margin-bottom: 20px;
 }
 
 #topoTitulo > img {
-height: 90%;
+height: 100%;
+margin-top: 2%;
+margin-bottom: 2%;
 }
     
 #meioPerguntas {
+margin-top: 6%;
 height: 30%;
 display: flex;
 text-align: center;
@@ -87,7 +90,7 @@ font-size: 25px;
 }
 
 .button-container button {
-    background-color: #ebbcd2;
+    background-color: #FFBACE;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -123,7 +126,11 @@ font-size: 25px;
 }
 
 select {
-    border-radius: 10px;
+    border-radius: 8px;
     padding-right: 25px;
     padding-left: 25px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #FFBACE; 
+    color: white;
 }
